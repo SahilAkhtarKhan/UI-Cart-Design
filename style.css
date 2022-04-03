@@ -1,0 +1,240 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 1px solid black;
+    height: 650px;
+    width: 950px;
+    position: relative;
+    top: 38px;
+    left: 290px;
+    display: inline-flex;
+}
+.heading {
+    padding-left: 40px;
+    margin-bottom: 0px;
+}
+
+.nav-bar {
+    display: inline-flex;
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.main_section {
+    padding-left: 40px;
+}
+
+.login {
+    border: 1px solid black;
+    height: 75px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+.login h4 {
+    padding-left: 25px;
+    color: grey;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.login_data h5 {
+    display: inline-flex;
+    margin: 0px;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+.login button {
+    height: 35px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 148px;
+    margin-bottom: 5px;
+}
+
+.Address {
+    border: 1px solid black;
+    height: 90px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+.Address h4 {
+    padding-left: 25px;
+    color: grey;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.Address h5 {
+    margin-bottom: 0px;
+}
+
+.Address button {
+    height: 35px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    margin-right: 48px;
+}
+
+.payment_method {
+    background-color: gainsboro;
+    height: 40px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+.payment_method p {
+    padding-top: 10px;
+    padding-left: 26px;
+}
+
+.detail {
+    margin-left: 50px;
+}
+
+.card_deatil {
+    display: inline-flex;
+    padding-top: 20px;
+}
+
+.detail_text {
+    font-size: 10px;
+}
+
+.card_number {
+    border-radius: 5px;
+    height: 25px;
+    width: 250px;
+}
+
+.card_date {
+    border-radius: 5px;
+    height: 25px;
+}
+
+.cvv {
+    margin-left: 10px;
+}
+
+.pay {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.card_cvv {
+    border-radius: 5px;
+    height: 25px;
+}
+
+.pay_button {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    height: 35px;
+}
+
+.debit {
+    display: inline-flex;
+}
+.images {
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.browser_img {
+    height: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Wallet {
+    height: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.right-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 450px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 97px;
+    padding-left: 20px;
+}
+.your_order {
+    padding: inherit;
+}
+.hr {
+    border-bottom: gray;
+    width: 200px;
+}
+
+.jacket {
+    height: 70px;
+}
+
+.first_item {
+    display: inline-flex;
+    padding-top: 20px;
+}
+
+.item_detail {
+    padding: 8px 0 0 25px;
+}
+
+.item_detail p {
+    color: lightgray;
+    font-size: 10px;
+    display: inline-flex;
+    margin: 0px;
+}
+
+.item_detail h4 {
+    margin: 0px;
+}
+
+.item_detail strong {
+    font-size: 11px;
+}
+
+.item_detail .color {
+    margin-left: 20px;
+}
+
+.second_item {
+    display: inline-flex;
+    padding-top: 20px;
+}
+
+.delivery_discount {
+    display: inline-flex;
+    font-size: 12px;
+}
+
+.delivery_discount .amount {
+    padding-left: 70px;
+}
+
+.total {
+    padding-top: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+.total p {
+    padding-left: 10px;
+}
+
+.total h4 {
+    padding-right: 20px;
+    margin: 16px 0 0 85px;
+    height: 45px;
+}

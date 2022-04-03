@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <!-- main internal body -->
+    <div class="container">
+      <div class="left-container">
+        <header>
+          <!-- Main Heading -->
+          <h2 class="heading">Shopping Cart</h2>
+          <!-- Nav Bar -->
+          <ul class="nav-bar">
+            <li><a href="#homepage">Homepage</a></li>
+            <li>/</li>
+            <li><a href="#Clothing_Categories">Clothing Categories</a></li>
+            <li>/</li>
+            <li><a href="#My_Shopping_Cart">My Shopping Cart</a></li>
+          </ul>
+        </header>
+        <br />
+        <section class="main_section">
+          <!-- login box -->
+          <div class="login">
+            <h4>LOGIN</h4><span class="login_data">
+            <h5>Sahil Akhtar Khan</h5>
+            <h5>+91-8516028035</h5>
+          </span>
+          <!-- button in login section  -->
+          <a href="login_data.html"><button>
+              Change </button> </a>
+          </div>
+          <br />
+          <!-- Shipping Address box -->
+          <div class="Address">
+              <h4>SHIPPING ADDRESS</h4>
+              <a href="address-data.html"> <button>Change</button> </a>
+              <span class="login_data">
+              <h5>Brady Cooper, New Civil Colony , Salt Lake City, Utah</h5><br>
+                 <h5>United States, 2971 Avenue.</h5>
+            </span>
+          </div>
+          <!-- Payment Section  -->
+          <!-- Section tag start from payment  -->
+          <section class="payment">
+            <div class="payment_method">
+              <p>PAYMENT METHOD</p>
+            </div><br>
+            <!-- Debit / Credit Card -->
+            <div class="debit" id="debit">
+              <input type="radio" name="select" id="" />
+              <img
+                class="images"
+                src="/assets/Debit_Credit.png"
+                alt="Debit_Credit"
+              />
+              Debit / Credit Card
+            </div>
+            <!-- Card Details -->
+            <div class="detail">
+              <br />
+              <label class="detail_text"> Enter Card Number* </label
+              ><br /><input
+                type="number"
+                name="number"
+                class="card_number"
+                id=""
+              /><br />
+              <span class="card_deatil">
+                <span>
+                  <label class="detail_text"> Valid Date </label> <br /><input
+                    type="date"
+                    name="date"
+                    class="card_date"
+                    id=""
+                  />
+                </span>
+                <span class="cvv">
+                  <label class="detail_text"> CVV* </label><br /><input
+                    type="number"
+                    name="number"
+                    min="0"
+                    max="3"
+                    class="card_cvv"
+                    id=""
+                  />
+                </span>
+                <span class="pay">
+                  <button class="pay_button">Pay $117.00</button> </span
+                ><br />
+              </span>
+              <h6>
+                Your card details would be securely saved for faster
+                payments.Your CVV will not be stored
+              </h6>
+            </div>
+            <!-- Net Banking  -->
+            <div>
+              <input type="radio" name="select" id="browser" />
+              <img
+                class="browser_img"
+                src="/assets/Browser.png"
+                alt="Browser"
+              />
+              Net Banking
+            </div>
+            <!-- Google / Apple Wallet  -->
+            <div>
+              <input type="radio" name="select" id="" /><img
+                class="Wallet"
+                src="/assets/Wallet.jpg"
+                alt="Wallet"
+              />
+              Google / Apple Wallet
+            </div>
+          </section>
+        </section>
+      </div>
+      <!-- right container  -->
+      <div class="right-container">
+        <!-- Top Heading  -->
+        <h4 class="your_order">Your Order</h4>
+        <!-- Horizontal Line -->
+        <hr class="hr" />
+        <!-- First item with its details  -->
+        <span class="first_item">
+          <img
+            class="jacket"
+            src="/assets/yellow_jacket.jpg"
+            alt="yellow_jackets"
+          />
+          <div class="item_detail">
+            <h4>Jeans with sequins</h4>
+            <p>Size</p>
+            <strong> XL </strong>
+            <p class="color">Color</p>
+            <strong> Blue </strong><br />
+            <p>$39.00 x 02</p>
+          </div>
+        </span>
+        <hr class="hr" />
+        <span class="second_item">
+          <img
+            class="jacket"
+            src="/assets/long_jacket.webp"
+            alt="long_jackets"
+          />
+          <div class="item_detail">
+            <h4>Robinson Printed</h4>
+            <p>Size</p>
+            <strong> XL </strong>
+            <p class="color">Color</p>
+            <strong> Blue </strong><br />
+            <p>$39.00 x 02</p>
+          </div>
+        </span>
+        <hr class="hr" />
+        <div class="delivery_discount">
+          <span>
+            <p>Delivery</p>
+            <p>Discount</p>
+          </span>
+          <span class="amount">
+            <p>$20 Express</p>
+            <p>-$10</p>
+          </span>
+        </div>
+        <span class="total">
+          <p>TOTAL</p>
+          <h4>$117,00</4>
+        </span>
+      </div>
+    </div>
+  </body>
+  <!-- <script>
+    function show(){
+      document.getElementById('detail').style.visibility = "show";
+    }
+    function hide(){
+      document.getElementById('banking').style.visibility = "hidden";
+    }
+  </script> -->
+</html>
